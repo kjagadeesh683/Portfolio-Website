@@ -15,7 +15,8 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/profilepicnobg.png" alt="/profilepicnobg.png" fill className="object-contain" />
+          <Image src="/profilepicnobg.png" alt="Jagadeesh Portfolio" fill className="object-contain" priority
+                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
@@ -39,7 +40,7 @@ const Homepage = () => {
             <Link href="/portfolio">
               <button
                   className="p-4 rounded-lg ring-1 ring-black bg-black text-white font-semibold hover:bg-pink-100 hover:text-black">
-                View My Work
+                Work
               </button>
             </Link>
             <Link href="/contact">

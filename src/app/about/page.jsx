@@ -47,6 +47,8 @@ const AboutPage = () => {
               width={112}
               height={112}
               className="w-28 h-28 rounded-full object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw,33vw"
             />
             {/* BIOGRAPHY TITLE */}
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
