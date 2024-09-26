@@ -336,7 +336,7 @@ const AboutPage = () => {
 
           {/* EXPERIENCE CONTAINER */}
           <div
-              className="flex flex-col gap-12 justify-center pb-48"
+              className="flex flex-col gap-12 justify-center pb-48 w-full px-4 md:px-0"
               ref={experienceRef}
           >
             {/* EXPERIENCE TITLE */}
@@ -411,8 +411,8 @@ const AboutPage = () => {
                 ref={experienceRef3}
                 initial={{ x: "-300px" }}
                 animate={isExperienceRef3InView ? { x: "0" } : {}}
-                transition={{ delay: 0.5 }}
-                className="bg-white p-6 shadow-md rounded-lg w-full"
+                transition={{ delay: 0.3 }}
+                className="bg-white p-6 shadow-md rounded-lg w-[90%] mx-auto md:w-full"
             >
               {/* COMPANY NAME AND DATES */}
               <div className="flex justify-between items-center text-sm text-red-400">
